@@ -1,0 +1,18 @@
+database:
+  rds_endpoint: database-12.cb662k08an3m.ap-south-1.rds.amazonaws.com
+  port: 3306
+  databaseName: company
+  base64_username: cm9vdA== 
+  base64_password: cmRzcGFzc3dvcmQ=
+
+route53:
+  domain_name: shrishti.online
+  domain_name_https:  https://shrishti.online
+
+certificate:
+  arn: arn:aws:acm:ap-south-1:357186263723:certificate/e9b1d831-9086-4bb0-ac08-9b95900cde39
+
+images:
+  frontend: adkharat/react-currency-exchange-app-fe
+  backenf_1: adkharat/first_spring_boot_to_rds_1
+  backend_2: adkharat/second_spring_boot_to_rds_1
